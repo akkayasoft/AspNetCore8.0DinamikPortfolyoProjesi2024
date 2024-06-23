@@ -1,0 +1,32 @@
+﻿@model List<UrunModel>
+
+<html>
+	<head>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	</head>
+	<body>
+		<h1>Tüm Ürünlerin Listesi</h1>
+	@foreach(var urun in Model)
+	{
+        <table class="table table-bordered">
+            <tr>
+                <td>
+                    @urun.UrunId
+                </td>
+                <td>
+                    @urun.UrunAdi
+                </td>
+                <td>
+                    @urun.UrunAciklama
+                </td>
+                <td>
+                    @urun.UrunFiyat
+                </td>
+                <td>
+                    @urun.UrunAdedi
+                </td>
+            </tr>
+        </table>
+	}
+</body>
+</html>

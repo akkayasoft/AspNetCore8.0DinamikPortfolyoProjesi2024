@@ -1,0 +1,30 @@
+﻿@model UrunModel
+
+@{
+    ViewData["Title"] = "Urun Page";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<div class="text-center">
+    <h1 class="display-4">Ürün Sayfası</h1>
+    <p>Burada ürünlerimiz listelenmektedir.</p>
+    <table class="table table-bordered">
+        <tr>
+            <td>
+                @Model.UrunId
+            </td>
+            <td>
+                @Model.UrunAdi
+            </td>
+            <td>
+                @Model.UrunAciklama
+            </td>
+            <td>
+                @Model.UrunFiyat
+            </td>
+            <td>
+                @Model.UrunAdedi
+            </td>
+        </tr>
+    </table>
+
+</div>
