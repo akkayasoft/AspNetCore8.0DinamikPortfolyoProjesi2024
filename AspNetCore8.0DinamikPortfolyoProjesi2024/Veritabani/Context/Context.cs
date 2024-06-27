@@ -17,6 +17,7 @@ namespace AspNetCore8._0DinamikPortfolyoProjesi2024.Veritabani.Context
         public DbSet<Hakkimizda> Hakkimizdas { get; set; }
         public DbSet<Ekip> Ekips { get; set; }
         public DbSet<Iletisim> Iletisims { get; set; }
+        public DbSet<Admin> Admins { get; set; }
 
 
     }

@@ -9,6 +9,6 @@ namespace AspNetCore8._0DinamikPortfolyoProjesi2024.Veritabani.Siniflar
         public string CalismaAdi { get; set; }
         public string CalismaAciklama { get; set; }
 
-        public string CalismaResim { get; set; }
+
     }
 }
